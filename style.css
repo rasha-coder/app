@@ -1,0 +1,348 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, red ,rgb(233, 220, 217) );
+}
+span{
+    width: 20%;
+    height: 100%;
+    float: right;
+    background-color: rgb(233, 220, 217);
+}
+#rasha{
+    float: left;
+    line-height: 100px; 
+    padding: 0px 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#myR{
+    height: 100%; 
+    border-radius: 50%;
+    float: right;
+}
+nav{
+    width: 80%;
+    text-align:left;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(241, 239, 247);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    width: 215px; 
+    text-align: center;
+    list-style-type: none;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 450px;
+    background-color: red;
+    border-top: 3px solid white;
+    animation: changhBackground 20s infinite;
+}
+@keyframes changhBackground{
+    0%{
+background-color: rgb(233, 220, 217);
+    }30%{
+background-color: rgb(241, 120, 120);
+    }60%{
+background-color: rgb(243, 41, 41);
+    }100%{
+        background-color: red;
+    }
+}
+aside{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(233, 220, 217);
+    text-align: center;
+    float: left;
+}
+#fly{
+    width: 90%;
+    height: 50%;
+}
+/*#text{
+    padding: 10px 0px;
+    border-bottom: 7px solid red;
+}*/
+#word{
+    padding:30px 0px;
+   font-weight: bolder;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 50px;
+   animation: textColor 2s infinite;
+  color: transparent;
+    -webkit-background-clip: text;
+    border-bottom: 4px solid red;
+   
+}
+@keyframes textColor{
+    0%{
+        background-image: linear-gradient(to left,yellow ,green);
+        
+    }20%{
+        background-image: linear-gradient(to right,rgb(30, 255, 0) ,rgb(0, 77, 128));
+    }40%{
+        background-image: linear-gradient(to left,rgb(0, 4rgb(98, 0, 128)) ,green);
+    }60%{
+        background-image: linear-gradient(to right,rgb(255, 0, 234) ,rgb(128, 0, 0));
+    }80%{
+        background-image: linear-gradient(to left,rgb(255, 38, 0) ,rgb(126, 128, 0));
+    }100%{
+        background-image: linear-gradient(to right,rgb(60, 255, 0) ,rgb(0, 98, 128));
+    }
+}
+#contanct{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+ 
+}
+#contanct img{
+    width: 40px;
+    border-bottom:4px solid red; 
+    padding-bottom:7px; 
+    padding-left: 5px;
+    padding-right: 5px;  
+   
+    
+}
+#contanct img:hover{
+    width: 50px;
+    border-bottom:4px solid rgb(19, 18, 18); 
+}
+#art{
+width: 70%;
+height: 100%;
+float: right;
+position: relative;
+}
+#box{
+    width: 50%;
+    height: 50%;
+background-color:rgb(233, 220, 217);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+#box h1{
+text-align: center;
+border-bottom: 3px solid red;
+padding: 10px 0;
+}
+
+#personal{
+    width: 85%;
+    height: 80%;
+text-align: center;
+
+   
+}
+.a{
+    text-decoration: none;
+    
+}
+
+#imgmuslim{
+    width: 20%;
+    height: 40%;
+    margin-top: 10%;
+    
+   
+}
+#link{
+    margin-left: 59%;
+    margin-top: -18%;
+    color: rgb(209, 31, 85);
+    font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   
+       }
+       #link:hover{
+           text-decoration: underline;
+       }
+#imglike{
+    width: 20%;
+    height: 15%;
+    margin-left: 44%;
+    margin-bottom: -8%;
+    
+}#imglike:hover{
+    width: 18%;
+    height: 13%;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    
+}
+footer img{
+    justify-content: center;
+    
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+}
+
+@media (max-width:1106px) and (min-width:1041px) {
+   nav li{
+       width: 200px;
+   }
+#link{
+    margin-left: 60%;
+    margin-top: -21%;
+}
+#word{
+    font-size: 40px;
+}
+}
+@media only screen and (max-width:1041px) and (min-width:1000px){
+   nav li{
+    width: 174px;
+    
+   }
+span{
+    width: 28%;
+}
+#word{
+    font-size:30px;
+}
+#personal{
+    height: 70%;
+}
+#link{
+    font-size: 15px;
+    
+}
+}
+@media only screen and (max-width:1000px) {
+    span {
+        width: 100%;
+        height: 100%;
+    }
+    #personal{
+        width: 95%;
+        height: 68%;
+    }
+    nav {
+        width: 100%;
+        background-color: red;
+    }
+    #word{
+        font-size:25px;
+    }
+    main{
+        margin-top: 100px;
+    }
+    #link{
+        font-size: 13px;
+        margin-left: 61%;
+        margin-top: -20%;
+        
+    }
+    nav li{
+        width: 140px;
+    }
+     
+}
+@media only screen and (max-width:781px) {
+    #link{
+        margin: 0px;
+        
+    }
+    #imglike{
+margin: 0px;
+    }
+    #box {
+        width: 56%;
+        height: 48%;
+    }
+}
+@media only screen and (max-width:650px) {
+    nav li{
+        width: 100px;
+    }
+    #word{
+        font-size:20px;
+    }
+    #contanct img{
+        width: 20px;
+}
+#fly{
+height: 40%;
+}
+#imgmuslim {
+    height: 30%;
+}
+#box {
+    width: 60%;
+    height: 45%;
+}
+}@media only screen and (max-width:412px) and (min-width:200px){
+    nav li{
+        width: 80px;
+    }
+    #word{
+        font-size:16px;
+    }
+    #contanct img{
+        width: 17px;
+}
+#fly{
+height: 30%;
+}
+#imgmuslim {
+    height: 20%;
+}
+#box{
+    width: 61%;
+    height: 42%;
+}
+}
+@media only screen and (max-width:280px) {
+ 
+   
+    main{
+        margin-top: 205px;
+    }
+    #contanct img{
+        width: 10px;
+}
+#fly{
+    height: 20%;
+    }
+    #box{
+        width: 76%;
+    height: 39%;
+    }
+
+}
+
+
+
